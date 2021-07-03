@@ -1,7 +1,8 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+const isDevelopment = process.env.NODE_ENV !== "production";
+const port = isDevelopment ? 3000 : null;
 
 const main = () => {
   try {
