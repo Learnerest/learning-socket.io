@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "repository": "git@github.com:Learnerest/learning-socket.io.git",
+  "author": "Learnerest <lifelonglearnerest@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
