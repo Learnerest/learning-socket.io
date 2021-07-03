@@ -7,6 +7,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "yarn workspace @learning-socket/client start",
+    "server:dev": "yarn workspace @learning-socket/server dev"
+  },
   "dependencies": {
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
